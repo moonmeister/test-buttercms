@@ -38,7 +38,7 @@ module.exports = {
       resolve: `gatsby-source-buttercms`,
       options: {
         authToken: process.env.BUTTER_CMS_TOKEN,
-        preview: process.env.BUTTER_CMS_PREVIEW,
+        preview: 1,
       },
     },
 
